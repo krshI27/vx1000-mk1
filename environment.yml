@@ -1,4 +1,4 @@
-name: vx1000-fisheye-simulator
+name: vx1000-mk1
 channels:
   - conda-forge
 dependencies:
