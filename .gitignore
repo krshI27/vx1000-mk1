@@ -1,8 +1,35 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# Virtual envs
 .venv/
 venv/
+env/
+
+# Environment / secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Caches
+.cache/
+cache/
+
+# OS
 .DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Video output
 tmp_*
 *.mp4
 *.mov
