@@ -11,3 +11,5 @@ dependencies:
       - Pillow>=10.0.0
       - imageio>=2.31.0
       - moviepy>=1.0.0
+      - -e ../photo-fx
+      - -e ../watercolor
