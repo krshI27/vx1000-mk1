@@ -131,7 +131,7 @@ This project is a simulation tool for the distinctive skateboard fisheye look of
 2. Run the app:
 
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 3. Upload an image and adjust the lens, vignette, and film controls.
