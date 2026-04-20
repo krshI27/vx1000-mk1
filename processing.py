@@ -1,6 +1,6 @@
-"""Thin preset-app wrapper around `photo_fx` filters.
+"""Thin preset-app wrapper around `image_effects` filters.
 
-The filter math lives in `photo_fx` (shared across the workspace).
+The filter math lives in `image_effects` (shared across the workspace).
 This module keeps only PIL I/O helpers and the bundled `process_frame`
 orchestration that composes the four VX1000 filters in order.
 """
@@ -9,10 +9,10 @@ from io import BytesIO
 
 import numpy as np
 from PIL import Image
-from photo_fx import color_grade as _color_grade
-from photo_fx import fisheye_2d as _fisheye_2d
-from photo_fx import grain as _grain
-from photo_fx import vignette as _vignette
+from image_effects import color_grade as _color_grade
+from image_effects import fisheye_2d as _fisheye_2d
+from image_effects import grain as _grain
+from image_effects import vignette as _vignette
 
 
 def pil_to_array(image: Image.Image) -> np.ndarray:
