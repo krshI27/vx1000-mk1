@@ -1,0 +1,6 @@
+numpy>=1.25.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+imageio>=2.31.0
+moviepy>=1.0.0
+git+https://github.com/krshI27/image-effects.git
