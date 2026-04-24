@@ -120,6 +120,10 @@ This project is a simulation tool for the distinctive skateboard fisheye look of
 - Add an interactive calibration tool to match distortion to real footage
 - Add a lens library with other skateboarding fisheye profiles
 
+## Feature ideas
+
+- **Camera capture**: `st.camera_input` for instant in-browser snapshot → apply VX1000 effect immediately, no file picker needed
+
 ## Quick Start
 
 1. Install dependencies:
