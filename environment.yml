@@ -12,4 +12,3 @@ dependencies:
       - imageio>=2.31.0
       - moviepy>=1.0.0
       - -e ../image-effects
-      - -e ../watercolor
