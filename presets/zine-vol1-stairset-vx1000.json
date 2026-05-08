@@ -1,0 +1,15 @@
+{
+    "name": "Zine Vol.1 — Stairset VX1000",
+    "app": "vx1000-mk1",
+    "source_preset": "stairset-generation/presets/zine-vol1-abstract.json",
+    "params": {
+        "preset": "Classic VX1000",
+        "strength": 1.2,
+        "scale": 0.98,
+        "vignette": 0.7,
+        "contrast": 1.3,
+        "saturation": 0.85,
+        "exposure": 0.0,
+        "grain": 0.22
+    }
+}
