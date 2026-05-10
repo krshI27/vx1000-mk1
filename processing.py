@@ -31,13 +31,6 @@ def pil_image_to_bytes(image: Image.Image) -> bytes:
     return buffer.getvalue()
 
 
-# Back-compat aliases for the old `processing.*` call-sites.
-fisheye_distort = _fisheye_2d
-apply_vignette = _vignette
-apply_color = _color_grade
-add_film_grain = _grain
-
-
 def process_frame(
     frame,
     strength: float = 0.9,
