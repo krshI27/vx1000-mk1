@@ -103,7 +103,7 @@ This project is a simulation tool for the distinctive skateboard fisheye look of
 
 - Python + Streamlit for a fast interactive prototype
 - OpenCV / NumPy for distortion and pixel remapping
-- `imageio` or `moviepy` for video loading and export
+- `imageio` for image loading and export
 - `pillow` for image manipulation and overlay generation
 - Optional WebGL / JS fallback for real-time browser preview
 
