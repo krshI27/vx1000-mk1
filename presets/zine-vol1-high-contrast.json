@@ -1,0 +1,14 @@
+{
+    "name": "Zine Vol.1 — High Contrast",
+    "app": "vx1000-mk1",
+    "params": {
+        "preset": "High Contrast",
+        "strength": 1.10,
+        "scale": 0.92,
+        "vignette": 0.42,
+        "contrast": 1.40,
+        "saturation": 1.25,
+        "exposure": 0.08,
+        "grain": 0.20
+    }
+}

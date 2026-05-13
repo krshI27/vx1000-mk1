@@ -1,0 +1,14 @@
+{
+    "name": "Zine Vol.1 — Soft Skate",
+    "app": "vx1000-mk1",
+    "params": {
+        "preset": "Soft Skate",
+        "strength": 0.72,
+        "scale": 1.0,
+        "vignette": 0.30,
+        "contrast": 1.05,
+        "saturation": 1.10,
+        "exposure": 0.02,
+        "grain": 0.10
+    }
+}
